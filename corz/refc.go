@@ -1,3 +1,7 @@
+// Reflection
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import (
@@ -34,6 +38,9 @@ func namesForType(t reflect.Type) (n []string) {
 	return
 }
 
+//
+//The method prints out declared field names of any structure
+//
 func DeclaredFields(i interface{}) (n []string) {
 	return namesForType(
 		reflect.TypeOf(

@@ -1,3 +1,7 @@
+// Shows how to use interfaces
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import (

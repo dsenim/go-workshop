@@ -1,3 +1,7 @@
+// Shows when to use pointers
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import "fmt"

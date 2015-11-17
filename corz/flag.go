@@ -1,3 +1,7 @@
+// Shows how to read command line arguments
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import (

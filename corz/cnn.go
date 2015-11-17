@@ -1,3 +1,8 @@
+// Shows how to define and work with Go channels.
+// Teaches you some tricks and patterns such as circuit breaker etc.
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import (

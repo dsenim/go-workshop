@@ -1,3 +1,7 @@
+// Shows how to deal with errors, panic attacks and runtime exceptions
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import "errors"

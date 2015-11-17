@@ -1,3 +1,7 @@
+// Covers maps, slices, arrays
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import (

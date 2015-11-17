@@ -1,12 +1,16 @@
+// Shows how variables and packages can be initialized.
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import "fmt"
 
-//Always come before init
+//Always comes before init
 var INIT = tierUp()
 
 func init() {
-	//Always come before main
+	//Always comes before main
 	fmt.Println("Initialize cor here!")
 }
 

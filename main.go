@@ -1,3 +1,6 @@
+// The main package for the Go workshop.
+//
+// Author: Dmitri Krasnenko
 package main
 
 import (

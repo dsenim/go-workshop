@@ -1,3 +1,7 @@
+// Shows how basic Log4J like library could be implemented.
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import (

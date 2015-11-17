@@ -1,3 +1,7 @@
+// Set data structure implementation
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import (

@@ -1,3 +1,7 @@
+// Simple HTTP server with recovery from panic attacks
+//
+// Author: Dmitri Krasnenko
+
 package nets
 
 import (
@@ -46,6 +50,10 @@ func DeployHTTP() {
 		}else {
 			w.Write([]byte("Hello Anonymous!"))
 		}
+	})
+
+	http_mux.HandleFunc("/panic", func(w http.ResponseWriter, r *http.Request) {
+		panic("It's panic attack!")
 	})
 
 	fmt.Println("Listening on port 8000.")

@@ -1,3 +1,7 @@
+//Covers go basics
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 import (

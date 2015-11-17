@@ -1,3 +1,7 @@
+// Explains the way go implements inheritance
+//
+// Author: Dmitri Krasnenko
+
 package corz
 
 type Person struct {
@@ -22,6 +26,7 @@ func (p *Person) SetName(name string) {
 }
 
 type Employee struct {
+	// Compiler implicitly adds filed 'Person' of type *Person to the struct.
 	*Person
 	position string
 }

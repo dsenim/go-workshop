@@ -1,3 +1,6 @@
+//Basic example of how to use go routines and channels
+//
+// Author: Dmitri Krasnenko
 package corz
 
 import (
